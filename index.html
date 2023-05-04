@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="index.js"></script>
+    <title>Youtube</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#">
+            <img src="https://i0.wp.com/www.dafontfree.io/wp-content/uploads/2021/08/Youtube-Logo-Font-3.jpg?fit=900%2C550&ssl=1" alt="youtube-logo" 
+            class="youtube-logo">
+        </a>
+        <form class="search-bar">
+            <input class="search-input" type="search"
+            placeholder="Search" aria-label="Search"/>
+            <button type="submit">
+                <i class="material-icons" id="search-btn">search</i>
+            </button>
+        </form>
+        <div class="menu-icons">
+            <a href="#">
+                <i class="material-icons">video_call</i>
+            </a>
+            <a href="#">
+                <i class="material-icons">apps</i>
+            </a>
+            <a href="#">
+                <i class="material-icons">account_circle</i>
+            </a>
+        </div>
+    </header>
+    <div class="categories">
+        <section class="category-section">
+            <button class="category-active">All</button>
+            <button class="category">Action</button>
+            <button class="category">Sports</button>
+            <button class="category">News</button>
+            <button class="category">Anime</button>
+            <button class="category">Cricket</button>
+            <button class="category">Games</button>
+            <button class="category">Songs</button>
+            <button class="category">Trailers</button>
+            <button class="category">Shorts</button>
+        </section>
+    </div>
+    <div class="videos">
+        <section class="video-section">
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=Se26Op9sEC8" class="thumbnail" data-duration="2.13" onclick="myFunc">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/Se26Op9sEC8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB8aevVKq18JtxAwvSpMkgFPZRIWw" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=Se26Op9sEC8" class="video-title" onclick="myFunc">Black Knight | Official Trailer | Netflix</a>
+                        <a href="https://www.youtube.com/@Netflix" class="video-channel-name" onclick="func">Netflix</a>
+                        <div class="video-metadata">
+                            <span>12k views</span>
+                            •
+                            <span>6 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=lV6sJlBbhPs" class="thumbnail" data-duration="2.13" onclick="func1">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/lV6sJlBbhPs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB1SgCdQbQykY7EY2rjrPbdCP1s5A" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=lV6sJlBbhPs" class="video-title" onclick="func1">The Diplomat | Official Trailer | Netflix</a>
+                        <a href="https://www.youtube.com/@Netflix" class="video-channel-name" onclick="func">Netflix</a>
+                        <div class="video-metadata">
+                            <span>221k views</span>
+                            •
+                            <span>18 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=mO0OuR26IZM&t=2s" class="thumbnail" data-duration="2.13" onclick="func2">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/mO0OuR26IZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAvq5s3-9RlTo27UPgrtFV_D2jUsg" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=mO0OuR26IZM&t=2s" class="video-title" onclick="func2">EXTRACTION 2 | Official Teaser Trailer | Netflix</a>
+                        <a href="https://www.youtube.com/@Netflix" class="video-channel-name" onclick="func">Netflix</a>
+                        <div class="video-metadata">
+                            <span>10M views</span>
+                            •
+                            <span>4 weeks ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=E1KDuaPrUaY" class="thumbnail" data-duration="2.13" onclick="func3">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/E1KDuaPrUaY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAdvWZaz-KornILpuRmsxTUAE6E8g" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=E1KDuaPrUaY" class="video-title" onclick="func3">Supacell | An Inside Look at Rapman's New Superhero Drama | Netflix</a>
+                        <a href="https://www.youtube.com/@Netflix" class="video-channel-name" onclick="func">Netflix</a>
+                        <div class="video-metadata">
+                            <span>22K views</span>
+                            •
+                            <span>7 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=KZKvOzlYit4" class="thumbnail" data-duration="2.13" onclick="func4">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/KZKvOzlYit4/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwm7sw1HJ0AN1jokIELcDbYP649g" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://images.ctfassets.net/4cd45et68cgf/Rx83JoRDMkYNlMC9MKzcB/2b14d5a59fc3937afd3f03191e19502d/Netflix-Symbol.png?w=684&h=456" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=KZKvOzlYit4" class="video-title" onclick="func4">Our Planet II | Official Teaser | Netflix</a>
+                        <a href="https://www.youtube.com/@Netflix" class="video-channel-name" onclick="func">Netflix</a>
+                        <div class="video-metadata">
+                            <span>55k views</span>
+                            •
+                            <span>2 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=Way9Dexny3w" class="thumbnail" data-duration="2.13" onclick="func5">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/Way9Dexny3w/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB90hZV6xNoTOVuyOf6lZ1_7OVzrg" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/Dd84-7pxMM5DvXGwsEoLv5NMdyeEJnGxhe0rtDuJslFN3YUKCOhN5R7n8--B6g33kPNV2Pv8Q28=s88-c-k-c0x00ffffff-no-rj" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=Way9Dexny3w" class="video-title" onclick="func5">Dune: Part Two | Official Trailer</a>
+                        <a href="https://www.youtube.com/@WarnerBrosPictures" class="video-channel-name" onclick="func7">Warner Bros. Pictures</a>
+                        <div class="video-metadata">
+                            <span>8.2M views</span>
+                            •
+                            <span>18 hours ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=itnqEauWQZM&t=19s" class="thumbnail" data-duration="2.13" onclick="func6">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/itnqEauWQZM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDohJ56jVFUkSc2VHY0SHS1TrRiDA" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/PONSj7yNZXmRc_whSU8ihBrDAAeoWMXPXaeAdYYLldEXK4YjXPFw0Uiox6KdDOcujYqhjHSd=s88-c-k-c0x00ffffff-no-rj" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=itnqEauWQZM&t=19s" class="video-title" onclick="func2">Transformers: Rise of the Beasts | Official Trailer (2023 Movie)</a>
+                        <a href="https://www.youtube.com/@paramountpictures" class="video-channel-name" onclick="func8">Paramount Pictures</a>
+                        <div class="video-metadata">
+                            <span>17M views</span>
+                            •
+                            <span>6 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="video-container">
+                <a href="https://www.youtube.com/watch?v=19ikl8vy4zs" class="thumbnail" data-duration="2.13" onclick="func9">
+                    <img class="thumbnail-image" src="https://i.ytimg.com/vi/19ikl8vy4zs/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDHkTGemQNLPj5cfDWg-lpEYkbDhA" height="150" width="250"/>
+                <div class="video-bottom-section">
+                    <a href="#">
+                        <img class="channel-icon" src="https://yt3.ggpht.com/PONSj7yNZXmRc_whSU8ihBrDAAeoWMXPXaeAdYYLldEXK4YjXPFw0Uiox6KdDOcujYqhjHSd=s88-c-k-c0x00ffffff-no-rj" height="36" width="36"/>
+                    </a>
+                    <div class="video-details">
+                        <a href="https://www.youtube.com/watch?v=19ikl8vy4zs" class="video-title" onclick="func9">THE EQUALIZER 3 - Official Red Band Trailer (HD)</a>
+                        <a href="https://www.youtube.com/@sonypictures" class="video-channel-name" onclick="func10">Sony Pictures Entertainment</a>
+                        <div class="video-metadata">
+                            <span>9.5M views</span>
+                            •
+                            <span>8 days ago</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </div>
+</body>
+</html>
